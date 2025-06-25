@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+public class HolaMundo {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("¡Hola, mundo!");
+        System.out.print("¿Cómo te llamas? ");
+
+        String nombre = scanner.nextLine();
+        System.out.println("Mucho gusto, " + nombre + "!");
+
+        scanner.close();
+    }
+}
